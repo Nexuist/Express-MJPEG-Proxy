@@ -34,13 +34,13 @@ When a new Proxy object is created, it will establish a connection to the MJPEG 
 The argument can either be a string (in the form a URL) or an object acceptable by [http.request](https://nodejs.org/api/http.html#http_http_request_options_callback):
 
 ```javascript
-	var proxy = new Proxy("URL"); // Works
-	var proxy = new Proxy({
-		host: "...",
-		port: "80",
-		method: "GET"
-		path: "/cam.mjpeg"
-	}); // Also works
+var proxy = new Proxy("URL"); // Works
+var proxy = new Proxy({
+	host: "...",
+	port: "80",
+	method: "GET"
+	path: "/cam.mjpeg"
+}); // Also works
 
 ```
 
