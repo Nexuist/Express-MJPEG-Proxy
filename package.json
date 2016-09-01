@@ -1,0 +1,25 @@
+{
+	"name": "express-mjpeg-proxy",
+	"version": "1.0.0",
+	"description": "A node.js MJPEG proxy that can be used with express.",
+	"keywords": [
+		"express",
+		"mjpeg",
+		"proxy",
+		"ip camera"
+	],
+	"author": "Andi Andreas <nexuister@gmail.com>",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"homepage": "https://github.com/nexuist/Express-MJPEG-Proxy",
+	"repository": "nexuist/Express-MJPEG-Proxy",
+	"bugs": {
+		"url": "https://github.com/nexuist/Express-MJPEG-Proxy/issues"
+	},
+	"contributors": [
+		"Phil Rene (https://github.com/philrene)",
+		"Chris Chua (https://github.com/chrisirhc)"
+	],
+	"license": "MIT"
+}
