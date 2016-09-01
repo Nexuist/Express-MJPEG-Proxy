@@ -17,10 +17,10 @@ server.listen(port, function() {
 	});
 	proxy.emitter.on("addClient", function() {
 		clients++;
-		console.log("Added a client -", clients, "total");
+		console.log("Added a client:", clients, "total");
 	});
 	proxy.emitter.on("dropClient", function() {
 		clients--;
-		console.log("Dropped a client -", clients, "total");
+		console.log("Dropped a client:", clients, "total");
 	});
 });

@@ -42,7 +42,7 @@ exports.Proxy = function(opts) {
 		emitter.emit("addClient");
 		res.socket.on("close", function() {
 			clients.splice(clients.indexOf(res), 1);
-			emitter.emit("lostClient");
+			emitter.emit("dropClient");
 		});
 	};
 };
